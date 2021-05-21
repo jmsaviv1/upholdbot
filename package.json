@@ -1,0 +1,18 @@
+{
+  "name": "upholdbot",
+  "version": "1.0.0",
+  "description": "Sample bot that uses the Uphold API to alert the user of price oscillations on a given currency pair",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "author": "James Smith",
+  "license": "ISC",
+  "dependencies": {
+    "@uphold/uphold-sdk-javascript": "^2.4.0",
+    "axios": "^0.21.1",
+    "inquirer": "^8.0.0"
+  }
+}
